@@ -1,0 +1,9 @@
+coverage
+node_modules
+npm-debug.log
+src
+.idea
+.vscode
+.DS_Store
+**test.js
+.nyc_output

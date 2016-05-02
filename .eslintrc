@@ -1,0 +1,14 @@
+{
+  "extends": "xo/esnext",
+  "env": {
+    "node": true,
+    "es6": true,
+    "mocha": true
+  },
+  "globals": {
+    "expect": true
+  },
+  rules: {
+    "indent": [2, 2, {"SwitchCase": 1}],
+  }
+}
