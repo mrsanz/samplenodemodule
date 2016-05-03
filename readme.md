@@ -1,38 +1,19 @@
 # node-module
 
-> Brief description of your new node module
-
-## Install
-
-```
-$ npm install --save nodeModule
-```
-
+> sample node module to illustrate some code coverage issues with babel
 
 ## Usage
 
-```js
-import  nodeModule from 'node-module';
-
-nodeModule('unicorns');
-//=> 'unicorns & rainbows'
+To see the coverage difference with newer modules checkout the project and run:
+```
+npm i
+npm coverage && npm coverage:open
 ```
 
-## API
-
-### nodeModule(input, [options])
-
-#### input
-
-Type: `string`
-
-Lorem ipsum.
-
-#### options
-
-##### foo
-
-Type: `boolean`<br>
-Default: `false`
-
-Lorem ipsum.
+To see the fully covered code change to the oldDeps branch:
+```
+git co oldDeps
+rm -rf node_modules
+npm i
+npm coverage && npm coverage:open
+```
