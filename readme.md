@@ -17,3 +17,6 @@ rm -rf node_modules
 npm i
 npm coverage && npm coverage:open
 ```
+
+I ran the same test on both the transpiled code and on the pre-transpipled code
+so you could get a better picture of what was going on in parallel.
